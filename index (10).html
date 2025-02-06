@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator 💖</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Floating GIFs -->
+    <script src="floating-gifs.js"></script>
+
+    <!-- Social Media Icons and Developer Text -->
+    <div class="social-links">
+        <div class="developer">Developed by Sithum</div>
+        <a href="https://github.com/jsu622jejej" target="_blank">
+            <img src="https://raw.githubusercontent.com/jsu622jejej/image-cloud-/refs/heads/main/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png" alt="GitHub">
+        </a>
+        <a href="https://www.facebook.com/sithum.sirimana.58" target="_blank">
+            <img src="https://raw.githubusercontent.com/jsu622jejej/image-cloud-/refs/heads/main/png-transparent-logo-computer-icons-facebook-facebook-blue-text-trademark-thumbnail.png" alt="Facebook">
+        </a>
+        <a href="https://t.me/sithumsirimana1" target="_blank">
+            <img src="https://raw.githubusercontent.com/jsu622jejej/image-cloud-/refs/heads/main/0a50c1516e434e0108649d2987cfaeb0.jpg" alt="Telegram">
+        </a>
+    </div>
+
+    <!-- Match Image -->
+    <img id="matchImage" src="https://raw.githubusercontent.com/jsu622jejej/image-cloud-/refs/heads/main/Dark%20Brown%20Aesthetic%20Romantic%20Photo%20Collage.jpg" onerror="this.style.display='none'">
+
+    <!-- Love Calculator -->
+    <div class="love-calc">
+        <h2>💖 Love Calculator 💖</h2>
+        <input type="text" id="name1" placeholder="Your Name">
+        <input type="text" id="name2" placeholder="Their Name">
+        <button onclick="calculateLove()">Calculate ❤️</button>
+        <div class="result" id="loveResult"></div>
+        <div class="result" id="babyResult"></div>
+    </div>
+
+    <!-- Touch Here Button -->
+    <button class="touch-button" onclick="askName()">Touch Here to Enter Name</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
